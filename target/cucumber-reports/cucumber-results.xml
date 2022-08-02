@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="10.007">
+    <testcase classname="SearchBox Functionality" name="SearchBox functionality should work with a valid products name" time="9.741">
+        <system-out>
+            <![CDATA[And user enter valid product name for search................................passed
+When user click on search button............................................passed
+Then user should see the valid product appears after search.................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

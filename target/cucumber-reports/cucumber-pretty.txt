@@ -1,0 +1,10 @@
+
+@RegressionTest
+Scenario: SearchBox functionality should work with a valid products name # src/test/java/features/SearchBox.feature:42
+  And user enter valid product name for search                           # stepDefinitions.searchBoxSteps.user_enter_valid_product_name_for_search(io.cucumber.datatable.DataTable)
+    | product Name |
+    | Mask         |
+  When user click on search button                                       # stepDefinitions.searchBoxSteps.user_click_on_search_button()
+  Then user should see the valid product appears after search            # stepDefinitions.searchBoxSteps.user_should_see_the_valid_product_appears_after_search(io.cucumber.datatable.DataTable)
+    | Expected product Name |
+    | Popular Filters       |
